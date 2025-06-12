@@ -1,22 +1,34 @@
-# DL Project: HuggingFace + Django
+# 🎵 Mood-Based Music Recommender System
 
-Этот проект использует Django, PyTorch и Hugging Face Transformers для работы с ML-моделью на локальном сервере.
-
----
-
-## 📦 Установка Python и виртуального окружения
-
-### 1. Скачай и установи Python (если не установлен)
-
-Скачать: https://www.python.org/downloads/
-
-Убедись, что при установке ты поставил галочку **“Add Python to PATH”**!
+This project is a Django-based web application that recommends music based on user mood.  
+It uses a fine-tuned BERT model for sentiment analysis and interacts with the Spotify API to generate music suggestions.
 
 ---
 
-### 2. Создание и активация виртуального окружения
+## 🚀 Features
 
-Открой терминал (PowerShell или CMD) и выполни:
+- Mood detection from text using NLP and BERT
+- Music recommendation based on mood
+- Simple Django backend and REST API
+- Designed for easy integration with frontend (Vue.js or others)
+
+---
+
+## 🧰 Technologies Used
+
+- Python 3.10+
+- Django
+- Transformers (HuggingFace)
+- Torch
+- Pandas
+- dotenv
+
+---
+
+## 🖥️ How to Run Locally
+
+### 1. Clone the repository
 
 ```bash
-python -m venv venv
+git clone https://github.com/Aimat01/mood_based_music_recognition.git
+cd mood_based_music_recognition
