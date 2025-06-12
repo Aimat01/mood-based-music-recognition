@@ -1,0 +1,23 @@
+# Виртуалки
+venv/
+.venv/
+
+# PyTorch и DL мусор
+*.dll
+*.lib
+*.safetensors
+*.pt
+*.bin
+*.ckpt
+
+# Кэш
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Другое
+.env
+*.sqlite3
